@@ -1,0 +1,38 @@
+.submitButton {
+   background-color: var(--primary);
+   color: white;
+   padding: 0.5rem 1rem;
+   min-width: 100px;
+   height: 35px;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   transition: all 0.5s;
+}
+
+.submitButton:hover {
+   background-color: var(--secondary);
+}
+
+.submitButton:disabled {
+   background-color: #0082f44b;
+}
+
+.spinner {
+   animation: spin 1s linear infinite;
+   display: inline-block;
+}
+
+@keyframes spin {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg);
+   }
+}
