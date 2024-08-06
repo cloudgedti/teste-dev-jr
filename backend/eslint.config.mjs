@@ -26,6 +26,11 @@ export default [
          "@typescript-eslint/no-unused-vars": [
             "error",
             { argsIgnorePattern: "^_" },
+            {
+               compilerOptions: {
+                  noImplicitAny: false,
+               },
+            },
          ],
       },
    },
