@@ -8,7 +8,7 @@ import DeleteUserController from "./controllers/users/DeleteUserController";
 import UpdateUserController from "./controllers/users/UpdateUserController";
 
 // Middleware
-import { userValidator } from "./validator/UserValidator";
+import { userValidator } from "./validators/userValidator";
 import validationMiddleware from "./middlewares/validationMiddleware";
 
 const router = Router();
