@@ -1,3 +1,24 @@
+
+
+# Cloudged - Desafio Técnico Desenvolvedor
+
+## Backend
+Desenvolvimento de uma API RESTful utilizando Node.js e Express para gerenciar operações CRUD (Create, Read, Update, Delete) em uma entidade chamada "User". Cada User é definido pelos campos: id, fullName, email e data de criação.
+
+## Arquitetura e Princípios Adotados:
+A API segue os padrões de arquitetura MVC para uma organização estruturada e manutenível do código, além de adotar os princípios RESTful para oferecer uma interface consistente e previsível para interações com os recursos.
+
+## Frontend com Reactjs
+Desenvolvimento de uma aplicação frontend utilizando React.js para consumir a API desenvolvida. A aplicação permite que o usuário visualize a lista de usuários, adicione um novo usuário, atualize um usuário existente e delete um usuário.
+
+<div align="center">
+   
+![0806 (1)](https://github.com/user-attachments/assets/949e2c2a-f1f1-432c-983c-9076260198c8)
+
+</div>
+
+
+
 ## Como rodar localmente na sua máquina
 
 ## Pré-requisitos
