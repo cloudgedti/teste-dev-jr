@@ -1,4 +1,61 @@
+# CloudGed API
 
+[![Logo](logo.png)](www.cloudged.com.br)
+
+## Desafio - Desenvolvedor Jr
+
+Olá! Este desafio tem por objetivo avaliar a capacidade técnica de candidatos à vaga de desenvolvedor júnior da [CloudGed Consultoria Tributária](www.cloudged.com.br). Além disso, a avaliação consiste em analisar a capacidade de resolução de problemas e os conhecimentos técnicos específicos necessários para o cargo.
+
+## Introdução
+
+Este projeto é uma API RESTful desenvolvida em Node.js utilizando o framework NestJS, TypeORM para interação com o banco de dados PostgreSQL, e Swagger para documentação da API.
+
+## Índice
+
+1. [Instruções de Instalação](#instruções-de-instalação)
+2. [Configuração do Ambiente](#configuração-do-ambiente)
+3. [Executando a Aplicação](#executando-a-aplicação)
+4. [Endpoints da API](#endpoints-da-api)
+5. [Contribuindo](#contribuindo)
+
+## Instruções de Instalação
+
+### Pré-requisitos
+
+Certifique-se de ter os seguintes softwares instalados:
+
+- Node.js (versão 14 ou superior)
+- PostgreSQL
+- Git
+
+### Passos para Instalação
+
+1. Clone o repositório para a sua máquina local:
+
+   ```bash
+   git clone https://github.com/seu-usuario/teste-dev-jr.git
+
+
+2. Instale as dependências do projeto:
+
+    ```bash
+    npm install
+
+3. Configure o database do projeto:
+
+3.1. Vá até a pasta database/schema.sql e valide os dados.
+
+4. Executando a Aplicação:
+
+    ```bash
+    npm run start
+
+5. Documentação da API:
+
+5.1. A documentação da API, gerada pelo Swagger, estará disponível em http://localhost:3000/api.
+
+
+<!-- 
 [![Logo](logo.png)](www.cloudged.com.br)
 
 <h1 style="text-align: center;">Desafio - Desenvolvedor jr</h1>
@@ -118,4 +175,4 @@ Olá! Este desafio tem por objetivo avaliar a capacidade técnica de candidatos 
 Não se preocupe se você não conseguir finalizar todos os itens do desafio. O importante é que você consiga demonstrar suas habilidades técnicas e conhecimentos adquiridos até o momento.   
 Foque em entregar um código bem organizado e documentado, e que atenda aos requisitos propostos.
 
-Boa sorte! :rocket:
+Boa sorte! :rocket: -->
